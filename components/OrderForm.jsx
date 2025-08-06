@@ -42,8 +42,8 @@ export default function OrderForm() {
 
   const validateToken = () => {
     const tokens = getTokens();
-    const token = tokens[tokenId.toUpperCase()];
-
+    const token = tokens[tokenId];
+    console.log(token);
     if (!token) {
       showAlert("Invalid token ID", "error");
       return false;
@@ -142,7 +142,7 @@ export default function OrderForm() {
             id="token"
             placeholder="Enter 8-character token"
             value={tokenId}
-            onChange={(e) => setTokenId(e.target.value.toUpperCase())}
+            onChange={(e) => setTokenId(e.target.value)}
             maxLength={8}
             className="text-center font-mono text-lg"
           />
