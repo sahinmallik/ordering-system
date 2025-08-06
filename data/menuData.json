@@ -1,0 +1,265 @@
+{
+  "menu": {
+    "vegetarian": {
+      "Starters": [
+        { "name": "Gobi Manchurian", "prices": { "M": 140, "R": 200 } },
+        { "name": "Gobi 65", "prices": { "M": 140, "R": 200 } },
+        { "name": "Gobi Chilly", "prices": { "M": 140, "R": 200 } },
+        { "name": "Paneer 65", "prices": { "M": 160, "R": 230 } },
+        { "name": "Paneer Manchurian", "prices": { "M": 160, "R": 230 } },
+        { "name": "Paneer Chilly", "prices": { "M": 160, "R": 230 } },
+        { "name": "Pepper Paneer", "prices": { "M": 160, "R": 230 } }
+      ],
+      "Biryanis": [
+        {
+          "name": "Veg Biryani",
+          "prices": { "M": 120, "R": 180, "Large": 230 }
+        },
+        {
+          "name": "Veg Avakaya Biryani",
+          "prices": { "M": 150, "R": 200, "Large": 250 }
+        },
+        {
+          "name": "Veg Ulavacharu Biryani",
+          "prices": { "M": 200, "R": 230, "Large": 300 }
+        },
+        {
+          "name": "Paneer Biryani",
+
+          "prices": { "M": 140, "R": 200, "Large": 250 }
+        },
+        {
+          "name": "Paneer Avakaya Biryani",
+          "prices": { "M": 180, "R": 220, "Large": 280 }
+        },
+        {
+          "name": "Paneer Ulavacharu Biryani",
+          "prices": { "M": 200, "R": 250, "Large": 320 }
+        },
+        {
+          "name": "Kaju Biryani",
+          "prices": { "M": 170, "R": 230, "Large": 280 }
+        },
+        {
+          "name": "Kaju Paneer Biryani",
+          "prices": { "M": 180, "R": 250, "Large": 320 }
+        }
+      ],
+      "Rice_and_Gravy": {
+        "Rice": [
+          { "name": "Ghee Rice", "prices": { "M": 120, "R": 160 } },
+          { "name": "Jeera Rice", "prices": { "M": 140, "R": 180 } },
+          { "name": "Curd Rice", "prices": { "M": 140, "R": 180 } },
+          { "name": "Veg Fried Rice", "prices": { "M": 120, "R": 160 } }
+        ],
+        "Gravy": [
+          { "name": "Dal Fry", "price": 150 },
+          { "name": "Dal Tadka", "price": 180 },
+          { "name": "Veg Kadai", "prices": { "M": 120, "R": 170 } },
+          { "name": "Paneer Hyderabadi", "prices": { "M": 140, "R": 200 } },
+          { "name": "Paneer Butter Masala", "prices": { "M": 160, "R": 230 } }
+        ]
+      },
+      "Indian_Breads": [
+        { "name": "Tawa Roti", "price": 15 },
+        { "name": "Butter Roti", "price": 25 },
+        { "name": "Kerala Parota", "price": 20 }
+      ],
+      "Bucket_Biryanis": [
+        { "name": "Veg Biryani", "prices": { "Half Kg": 450, "1kg": 900 } },
+        { "name": "Paneer Biryani", "prices": { "Half Kg": 500, "1kg": 1000 } },
+        { "name": "Kaju Biryani", "prices": { "Half Kg": 550, "1kg": 1100 } },
+        {
+          "name": "Kaju Paneer Biryani",
+          "prices": { "Half Kg": 620, "1kg": 1200 }
+        }
+      ],
+      "Party_Packs": [
+        {
+          "name": "Veg Family Pack",
+          "price": 600
+        },
+        {
+          "name": "Veg Jumbo Pack",
+          "price": 1150
+        }
+      ],
+      "Dessert": [{ "name": "Double Ka Meeta", "price": 80 }],
+      "Beverages": [
+        { "name": "Fresh Lime Soda", "price": 50 },
+        { "name": "Fresh Lime Water", "price": 50 },
+        { "name": "Mojito", "price": 80 },
+        { "name": "Blue Lagoon", "price": 100 },
+        { "name": "Strawberry Mojito", "price": 100 },
+        { "name": "Water Melon Mojito", "price": 100 },
+        { "name": "Soft Drinks", "price": 20 },
+        { "name": "Water Bottle", "price": 20 }
+      ]
+    },
+    "non_vegetarian": {
+      "Starters": [
+        {
+          "name": "Andhra Chicken Fry",
+          "price": 220
+        },
+        { "name": "Chicken 65", "prices": { "M": 150, "R": 230 } },
+        { "name": "Chicken 555", "prices": { "M": 170, "R": 260 } },
+        { "name": "Pepper Chicken", "prices": { "M": 150, "R": 230 } },
+        { "name": "Chicken Manchurian", "prices": { "M": 150, "R": 230 } },
+        { "name": "Chicken Chilly", "prices": { "M": 150, "R": 230 } },
+        {
+          "name": "Mutton Andhra Fry",
+          "price": 330
+        },
+        { "name": "Mutton Rara", "price": 350 },
+        { "name": "Mutton Fry", "price": 330 }
+      ],
+      "Biryanis": [
+        {
+          "name": "Biryani Rice",
+          "prices": { "M": 100, "R": 160, "Large": 200 }
+        },
+        { "name": "Egg Biryani", "prices": { "R": 180, "Large": 230 } },
+        { "name": "Egg Kheema Biryani", "prices": { "R": 220, "Large": 260 } },
+        {
+          "name": "Chicken Dum Biryani",
+          "prices": { "M": 130, "R": 210, "Large": 290 }
+        },
+        {
+          "name": "Chicken Leg Piece Dum Biryani",
+          "description": "A special delight for the people who love exclusive chicken dum leg piece [cite: 30]",
+          "price": 320
+        },
+        {
+          "name": "Pan Fry Chicken Dum Biryani",
+          "prices": { "M": 160, "R": 230, "Large": 300 }
+        },
+        {
+          "name": "Chicken Boneless Biryani",
+          "prices": { "M": 180, "R": 240, "Large": 320 }
+        },
+        {
+          "name": "Chicken 65 Dum Biryani",
+          "description": "A classic touch of Andhra mango pickle layered with Dum rice to satisfy your spice buds, served with mirchi ka salan or raita [cite: 30]",
+          "prices": { "M": 200, "R": 260, "Large": 340 }
+        },
+        {
+          "name": "Avakaya Chicken Dum Biryani",
+          "description": "A classic touch of Andhra mango pickle layered with Dum rice to satisfy your spice buds, served with mirchi ka salan or raita [cite: 30]",
+          "prices": { "M": 190, "R": 250, "Large": 310 }
+        },
+        {
+          "name": "Ulavacharu Chicken Dum Biryani",
+          "description": "Signature Dum biriyani rice mixed with traditional & authentic recipe prepared with Horse Gram & tamarind soup served with mirchi ka salan & raita [cite: 30]",
+          "prices": { "R": 300, "Large": 350 }
+        },
+        {
+          "name": "House Special Chicken Biryani",
+          "description": "Signature chicken dum biryani with two layers of rice and two layers of chicken, along with one boiled egg. [cite_start]Served with mirchi ka salan or raita [cite: 30]",
+          "price": 350
+        },
+        {
+          "name": "Mutton Biryani",
+          "description": "Signature Dum biriyani rice tossed with succulent mutton pieces & delectable gravy giving you the rich taste of biriyani. [cite_start]Served with raita & mirchi ka salan [cite: 30]",
+          "prices": { "M": 220, "R": 320, "Large": 420 }
+        },
+        {
+          "name": "Mutton Dum Biryani",
+          "description": "Tender mutton pieces well marinated with handpicked spices & curd, layered with special extra-long grain biriyani basmati rice and slow cooked in the authentic Dum style. [cite_start]A must try mutton delicacy [cite: 30]",
+          "prices": { "M": 220, "R": 320, "Large": 420 }
+        },
+        {
+          "name": "Avakaya Mutton Biryani",
+          "description": "A classic touch of Andhra mango pickle layered with Dum rice to satisfy your spice buds, served with mirchi ka salan & raita [cite: 30]",
+          "prices": { "M": 250, "R": 350, "Large": 450 }
+        },
+        {
+          "name": "Ulavacharu Mutton Biryani",
+          "description": "Signature Dum biriyani rice mixed with traditional & authentic recipe prepared with Horse Gram & tamarind soup served with mirchi ka salan & raita [cite: 30]",
+          "prices": { "R": 380, "Large": 460 }
+        },
+        {
+          "name": "Mutton Nalli ghosh Biryani",
+          "description": "Signature Dum Biryani Rice mixed with minced mutton and lamb shank, a must try for all mutton lovers [cite: 30, 31]",
+          "price": 450
+        }
+      ],
+      "Rice_and_Gravy": {
+        "Rice": [
+          { "name": "Egg Fried Rice", "prices": { "M": 140, "R": 180 } },
+          { "name": "Chicken Fried Rice", "prices": { "M": 150, "R": 200 } }
+        ],
+        "Gravy": [
+          { "name": "Chicken Masala", "prices": { "M": 150, "R": 220 } },
+          { "name": "Chicken Hyderabadi", "prices": { "M": 170, "R": 240 } },
+          { "name": "Dum ka Chicken", "prices": { "M": 170, "R": 230 } },
+          { "name": "Butter Chicken", "prices": { "M": 180, "R": 250 } },
+          { "name": "Chicken Kheema masala", "prices": { "M": 220, "R": 300 } },
+          { "name": "Mutton Masala", "prices": { "M": 220, "R": 320 } },
+          { "name": "Mutton Rogan Ghosh", "prices": { "M": 260, "R": 360 } },
+          { "name": "Mutton Hyderabadi", "prices": { "M": 240, "R": 330 } }
+        ]
+      },
+      "Bucket_Biryanis": [
+        { "name": "Egg Biryani", "prices": { "Half Kg": 450, "1kg": 900 } },
+        {
+          "name": "Chicken Dum Biryani",
+          "prices": { "Half Kg": 580, "1kg": 1050 }
+        },
+        {
+          "name": "Chicken Leg Piece Dum Biryani",
+          "prices": { "Half Kg": 600, "1kg": 1150 }
+        },
+        {
+          "name": "Pan Fry Chicken Dum Biryani",
+          "prices": { "Half Kg": 600, "1kg": 1150 }
+        },
+        {
+          "name": "Chicken Boneless Biryani",
+          "prices": { "Half Kg": 640, "1kg": 1200 }
+        },
+        {
+          "name": "Chicken 65 Dum Biryani",
+          "prices": { "Half Kg": 660, "1kg": 1300 }
+        },
+        {
+          "name": "House Special Chicken Biryani",
+          "prices": { "Half Kg": 700, "1kg": 1400 }
+        },
+        { "name": "Mutton Biryani", "prices": { "Half Kg": 750, "1kg": 1450 } },
+        {
+          "name": "Mutton Dum Biryani",
+          "prices": { "Half Kg": 750, "1kg": 1450 }
+        }
+      ],
+      "Party_Packs": [
+        {
+          "name": "Chicken Family Pack",
+          "price": 820,
+          "description": "CHICKEN BIRIYANI WITH HALF CH 65, HALF CHICKEN MASALA, 4 TAWA ROTI, 2 BOILED EGGS WITH MIRCHI KA SALAN, RAITA & SALAD [cite: 52, 53, 54, 55]"
+        },
+        {
+          "name": "Chicken Jumbo Pack",
+          "price": 1450,
+          "description": "HALF KG CHICKEN BIRIYANI bucket WITH CH 65, CHICKEN MASALA, 8 TAWA ROTI, 4 BOILED EGGS WITH MIRCHI KA SALAN, RAITA & SALAD [cite: 56, 57, 58]"
+        },
+        {
+          "name": "Mutton Family Pack",
+          "price": 1000,
+          "description": "MUTTON BIRIYANI WITH HALF MUTTON MASALA, 4 TAWA ROTI, 2 BOILED EGGS WITH MIRCHI KA SALAN, RAITA & SALAD (SERVES 3 TO 4 PAX) [cite: 59, 60, 61, 62]"
+        },
+        {
+          "name": "Mutton Jumbo Pack",
+          "price": 1450,
+          "description": "MUTTON BIRIYANI WITH MUTTON MASALA, 8 TAWA ROTI, 4 BOILED EGGS WITH MIRCHI KA SALAN, RAITA & SALAD (SERVES 3 TO 4 PAX) [cite: 63, 64, 65, 66]"
+        }
+      ],
+      "Add_ons": [
+        { "name": "Extra Chicken Dum 1 Piece", "price": 70 },
+        { "name": "Extra Chicken Dum 2 Piece", "price": 140 },
+        { "name": "Extra Chicken Dum Leg Piece", "price": 200 },
+        { "name": "Boiled Egg", "price": 20 }
+      ]
+    }
+  }
+}
